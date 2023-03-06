@@ -71,7 +71,7 @@ export default function Posts() {
             />
 
             <CardContent>
-              <Typography variant="body2">{post.body}</Typography>
+              <Typography variant="body2" sx={{fontSize:"0.9rem"}}>{post.body}</Typography>
             </CardContent>
 
             <Tooltip title="Tags">
